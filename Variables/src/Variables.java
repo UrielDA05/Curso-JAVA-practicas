@@ -1,7 +1,7 @@
 public class Variables {
     public static void main(String[] args) {
         // variables
-        int edad = 30;
+        var edad = 30;
         double sueldo = 20300.50;
         String nombre = "Juan";
         // Acceder a los valores
