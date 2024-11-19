@@ -1,7 +1,7 @@
 public class Constantes {
     public static void main(String[] args) {
         // Constante en Java
-        final int MI_CONSTANTE =10;
+         int MI_CONSTANTE =10;
         System.out.println("MI_CONSTANTE = " + MI_CONSTANTE);
         // Uso de pi
         System.out.println("Constante Math.Pi" + Math.PI);
