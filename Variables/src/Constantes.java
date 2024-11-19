@@ -6,7 +6,7 @@ public class Constantes {
         // Uso de pi
         System.out.println("Constante Math.Pi" + Math.PI);
         // Ejemplo de constante
-        final int SEGUNDOS_POR_MINUTO = 60;
+         int SEGUNDOS_POR_MINUTO = 60;
         System.out.println("SEGUNDOS_POR_MINUTO = " + SEGUNDOS_POR_MINUTO);
     }
 }
