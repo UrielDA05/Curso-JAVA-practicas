@@ -6,7 +6,7 @@ public class ElseIf {
             System.out.println("Llevar paraguas");
         } // Se puede quitar llaves si se cumple con una linea de codigo
         else {
-            System.out.println("Dejar paraguas en casa");
+            System.out.println("Dejar el paraguas en casa");
         }
     }
 }
