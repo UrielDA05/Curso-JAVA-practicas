@@ -20,7 +20,7 @@ public class ComparacionCadenas {
             System.out.println("Las cadenas son iguales (en contenido)");
         }
         else {
-            System.out.println("Las cadenas son diferentes (en contenido)");
+            System.out.println("Las cadenas no son iguales (en contenido)");
         }
     }
 }
