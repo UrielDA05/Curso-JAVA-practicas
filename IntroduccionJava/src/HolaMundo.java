@@ -1,4 +1,4 @@
-public class HolaMund {
+public class HolaMundo {
     //funcion main (funcion principal)
     public static void main(String[] args) {
         System.out.println("Hola mundo con java");
