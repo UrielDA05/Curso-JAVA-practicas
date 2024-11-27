@@ -5,7 +5,7 @@ public class SentenciaSwitch {
         var consola = new Scanner(System.in);
         System.out.print("Proporciona un mes (1-12): ");
         var mes = Byte.parseByte(consola.nextLine());
-        var estacion = "Esracion desconocida";
+        var estacion = "Estacion desconocida";
         switch (mes){
             case 1: case 2: case 12:
                 System.out.println("La estacion es invierno");
