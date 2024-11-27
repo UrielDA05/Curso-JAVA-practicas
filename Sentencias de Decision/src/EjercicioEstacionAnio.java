@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class EjercicioEstacionAnio {
     public static void main(String[] args) {
         var consola = new Scanner(System.in);
-        System.out.print("Ingrese el numero de mes en el que esta: ");
+        System.out.print("Ingrese el numero de mes (1-12): ");
         var numeroMes = Byte.parseByte(consola.nextLine());
         if (numeroMes == 1 || numeroMes == 2 || numeroMes == 12 ){
             System.out.println("Estamos en invierno");
