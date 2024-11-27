@@ -14,7 +14,7 @@ public class DiaSemana {
             case 5 -> System.out.println("Viernes");
             case 6 -> System.out.println("Sabado");
             case 7 -> System.out.println("Domingo");
-            default -> System.out.println("Valor de dia erroneo: " + diaSemana);
+            default -> System.out.println("Valor de dia desconocido: " + diaSemana);
         }
     }
 }
