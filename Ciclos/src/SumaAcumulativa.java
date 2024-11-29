@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SumaAcumulativa {
     public static void main(String[] args) {
         var consola = new Scanner(System.in);
-        System.out.print("Ingresa el numero de la sumatoria: ");
+        System.out.print("Ingresa el numero de la sumatori: ");
         var num = Integer.parseInt(consola.nextLine());
         var acumulado = 0;
         for (var contador = 1; contador <= num; contador++){
