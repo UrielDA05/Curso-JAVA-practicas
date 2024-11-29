@@ -1,7 +1,7 @@
 public class CicloDoWhile {
     public static void main(String[] args) {
         var contador = 1;
-        final var VALOR_MAXIMO = 9;
+        final var VALOR_MAXIM = 9;
         do {
             System.out.println("Valor: " + contador);
             contador++;
