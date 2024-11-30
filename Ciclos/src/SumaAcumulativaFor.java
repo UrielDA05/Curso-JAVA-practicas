@@ -7,7 +7,7 @@ public class SumaAcumulativaFor {
         var num = Integer.parseInt(consola.nextLine());
         var acumulado = 0;
         for (var contador = 1; contador <= num; contador++){
-            System.out.println("Acumulado de suma + numero: " + acumulado + " + " + contador);
+            System.out.println("Acumulado de la suma + numero: " + acumulado + " + " + contador);
             acumulado += contador;
             System.out.println("Suma de acumulado mas  el numero: " + acumulado);
         }
