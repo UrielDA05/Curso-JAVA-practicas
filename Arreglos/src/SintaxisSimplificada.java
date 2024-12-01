@@ -10,7 +10,12 @@ public class SintaxisSimplificada {
         // imprimir direccion de memoria
         System.out.println(enteros);
         System.out.println();
-
+        // uso de ciclo para la lectura de elementos
+        for (byte contador = 0; contador < enteros.length; contador++){
+            contador++;
+            System.out.printf("Valor " + contador );
+            contador--;
+            System.out.println(" con indice " + contador + ": "+ enteros[contador]);
         }
 
     }
