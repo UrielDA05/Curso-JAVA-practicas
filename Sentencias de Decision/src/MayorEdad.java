@@ -9,6 +9,7 @@ public class MayorEdad {
             System.out.println("La persona con " + edad + " anios, es mayor de edad");
         }else{
             System.out.println("La persona con " + edad + " anios, es menor de edad");
+            
         }
     }
 }
