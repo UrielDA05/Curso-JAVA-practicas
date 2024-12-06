@@ -15,7 +15,10 @@ public class SistemaCalificaciones {
             System.out.println("Tu nota es una D");
         } else if (calificacion >= 5 && calificacion < 6) {
             System.out.println("Tu nota es una E");
-        
+        } else if (calificacion >= 0 && calificacion < 5) {
+            System.out.println("Tu nota es una F");
+        } else {
+            System.out.println("Valor desconocido");
         }
     }
     }
