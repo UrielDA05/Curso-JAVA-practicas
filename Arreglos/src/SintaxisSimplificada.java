@@ -15,7 +15,7 @@ public class SintaxisSimplificada {
             contador++;
             System.out.printf("Valor " + contador );
             contador--;
-            System.out.println(" con indice " + contador + ": "+ enteros[contador]);
+            System.out.println(" con el indice " + contador + ": "+ enteros[contador]);
         }
 
     }
