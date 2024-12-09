@@ -9,7 +9,9 @@ public class EjemploNot {
             System.out.println("Saliendo del sistema");
         }
         //
-        
+        if (salirSistema){
+            System.out.println("Saliendo del sistema");
+        }
         else {
             System.out.println("Continueamos en el sistema");
         }
