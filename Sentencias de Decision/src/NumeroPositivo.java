@@ -9,8 +9,7 @@ public class NumeroPositivo {
             System.out.println(numero + " Es positivo");
         }else if (numero < 0) {
             System.out.println(numero + " Es negativo");
-        }else {
-            System.out.println(numero + " Es cero" );
+        
         }
     }
 }
