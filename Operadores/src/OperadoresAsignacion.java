@@ -7,9 +7,6 @@ public class OperadoresAsignacion {
         // Asignacion compuesto
         // +=
         numero += 5; // numero = numero + 5
-        System.out.println("numero = " + numero);
-        // -=, *=, /=, >=
-        numero *= 2;
-        System.out.println("numero = " + numero);
+        
     }
 }
