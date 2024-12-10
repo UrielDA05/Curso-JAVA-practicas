@@ -10,6 +10,9 @@ public class AreaRectangulo {
         var altura = Integer.parseInt(consola.nextLine());
         var area = 0;
         area = base * altura;
-        
+        System.out.println("El area del rectangulo es de: " + area);
+        var perimetro = 0;
+        perimetro = 2(base + altura)
+        System.out.println("El perimetro del rectandulo es de: " + perimetro);
     }
 }
