@@ -9,8 +9,11 @@ public class Matrices {
         matriz[1][0] = 400;
         matriz[1][1] = 500;
         matriz[1][2] = 600;
-        System.out.println("Valor 1 [0][0]: " + matriz [0][0]);
-        System.out.println("Valor 5 [1][1]: " + matriz [1][1]);
-        System.out.println("Valor 6 [1][2]: " + matriz [1][2]);
+        // Recorrer los renglones
+        for (int ren = 0; ren < RENGLONES; ren++){
+            for (int col = 0; col < COLUMNAS; col++){
+                System.out.println("Valor["+ ren + "][" + col + "] = " + matriz[ren][col]);
+            }
+        }
     }
 }
