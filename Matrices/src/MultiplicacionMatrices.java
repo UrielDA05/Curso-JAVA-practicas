@@ -6,13 +6,13 @@ public class MultiplicacionMatrices {
         byte tabla1[][] = new byte [3][3];
         byte tabla2[][] = new byte [3][3];
         byte x,y,z;
-
         for (x = 0; x < 3; x++){
             for(y = 0; y < 3; y++){
-                tabla2[x][y] = Byte.parseByte(JOptionPane.showInputDialog("Ingresa los numeros de la tabla 2 casilla: " +
+                tabla1[x][y] = Byte.parseByte(JOptionPane.showInputDialog("Ingresa los numeros de la tabla 1 casilla: " +
                         x+","+y));
             }
         }
+
 
         System.out.println("Tabla 2");
         for(x = 0; x <4; x++){
