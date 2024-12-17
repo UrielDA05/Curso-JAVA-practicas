@@ -12,7 +12,12 @@ public class MultiplicacionMatrices {
                         x+","+y));
             }
         }
-
+        for (x = 0; x < 3; x++){
+            for(y = 0; y < 3; y++){
+                tabla2[x][y] = Byte.parseByte(JOptionPane.showInputDialog("Ingresa los numeros de la tabla 2 casilla: " +
+                        x+","+y));
+            }
+        }
 
         System.out.println("Tabla 2");
         for(x = 0; x <4; x++){
