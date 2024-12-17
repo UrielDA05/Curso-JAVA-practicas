@@ -18,13 +18,6 @@ public class IntroducirValores {
                 matriz[ren][col] = Integer.parseInt(consola.nextLine());
             }
         }
-        // iterar valores en matriz
-        System.out.println();
-        for (int ren = 0; ren < renglones; ren ++) {
-            for (int col = 0; col < columnas; col++) {
-                System.out.println("Matriz [" + ren + "][" + col + "] = "
-                        + matriz[ren][col] + " ");
-            }
-        }
+
     }
 }
