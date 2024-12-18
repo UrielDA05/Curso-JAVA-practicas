@@ -15,7 +15,7 @@ public class SumaDiagonalMatriz {
             }
 
         }else {
-            JOptionPane.showInputDialog("Ingrese valores iguales");
+            JOptionPane.showMessageDialog(null,"Ingrese valores iguales");
         }
 
     }
