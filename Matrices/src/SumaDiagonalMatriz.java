@@ -13,7 +13,7 @@ public class SumaDiagonalMatriz {
                             a+","+b));
                 }
             }
-        for (int c = 0; 0 < columnas; c ++ ){
+        for (int c = 0; 0 < matriz.length; c ++ ){
             q += matriz[c][c];
         }
         JOptionPane.showMessageDialog(null,"El resultado es de : " + q);
