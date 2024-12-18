@@ -13,7 +13,11 @@ public class SumaDiagonalMatriz {
                             a+","+b));
                 }
             }
-
+        for (int c = 0; 0 < columnas; c ++ ){
+            int q = 0;
+            q += matriz[c][c];
+        }
+        JOptionPane.showMessageDialog("El resultado es de : " + q);
         }else {
             JOptionPane.showMessageDialog(null,"Ingrese valores iguales");
         }
