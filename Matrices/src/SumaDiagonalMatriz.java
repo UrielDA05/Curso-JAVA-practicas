@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 public class SumaDiagonalMatriz {
     public static void main(String[] args) {
-        int filas,columnas;
+        int filas,columnas,q = 0;
 
         filas = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero de filas"));
         columnas = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero de columnas"));
@@ -14,10 +14,9 @@ public class SumaDiagonalMatriz {
                 }
             }
         for (int c = 0; 0 < columnas; c ++ ){
-            int q = 0;
             q += matriz[c][c];
         }
-        JOptionPane.showMessageDialog("El resultado es de : " + q);
+        JOptionPane.showMessageDialog(null,"El resultado es de : " + q);
         }else {
             JOptionPane.showMessageDialog(null,"Ingrese valores iguales");
         }
