@@ -7,15 +7,17 @@ public class SumaDiagonalMatriz {
         columnas = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero de columnas"));
         int matriz[][] = new int[filas][columnas];
         if ( filas == columnas){
-            for (int a = 0; a < filas; a++){
-                for (int b = 0; b < columnas; b++){
+            for (int a = 0; a < filas; a++) {
+                for (int b = 0; b < columnas; b++) {
                     matriz[a][b] = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valo para " +
-                            a+","+b));
+                            a + "," + b));
+                }
+
+                for (int c = 0; 0 < filas4; c++) {
+                    q += matriz[c][c];
+
                 }
             }
-        for (int c = 0; 0 < matriz.length; c ++ ){
-            q += matriz[c][c];
-        }
         JOptionPane.showMessageDialog(null,"El resultado es de : " + q);
         }else {
             JOptionPane.showMessageDialog(null,"Ingrese valores iguales");
