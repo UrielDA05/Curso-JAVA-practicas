@@ -22,7 +22,7 @@ public class SumaDiagonalMatriz {
             }
         JOptionPane.showMessageDialog(null,"El resultado es de : " + q);
         }else {
-            JOptionPane.showMessageDialog(null,"Ingrese valores iguales");
+            JOptionPane.showMessageDialog(null,"Ingrese valores para las filas y columnas iguales");
         }
 
     }
