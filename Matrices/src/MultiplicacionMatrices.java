@@ -18,7 +18,7 @@ public class MultiplicacionMatrices {
                         x+","+y));
             }
         }
-System.out.println("Tabla 2");
+        System.out.println("Tabla 2");
         for(x = 0; x <4; x++){
             System.out.print(sup[x] + "\t");
             System.out.println();
