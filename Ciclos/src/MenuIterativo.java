@@ -11,7 +11,13 @@ public class MenuIterativo {
                     2. Eliminar cuenta
                     3. Salir del sistema
                     Escoge una opcion:\s""");
-           
+            var opcion =Integer.parseInt(new Scanner(System.in).nextLine());
+            switch (opcion){
+                case 1 -> System.out.println("Creando tu cuenta ...");
+                case 2 -> System.out.println("Eliminando tu cuenta ...");
+                case 3 -> {
+                    System.out.println("Saliendo del sistema ...");
+                    salir = true;
                 }
                 default -> System.out.println("Opcion invalida: " + opcion);
             }
