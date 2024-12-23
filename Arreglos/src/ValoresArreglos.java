@@ -11,7 +11,7 @@ public class ValoresArreglos {
             enteros[i] = Integer.parseInt(consola.nextLine());
             {
                 
-        System.out.println("\nImpresion del arreglo: ");
+        System.out.println("\n Impresion del arreglo: ");
         for (int i = 0; i < largoArreglo; i++){
             System.out.println("enterso[" + i + "]: "+enteros[i]);
         }
