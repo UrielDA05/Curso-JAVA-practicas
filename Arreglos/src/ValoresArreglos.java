@@ -7,7 +7,7 @@ public class ValoresArreglos {
         var largoArreglo = Integer.parseInt(consola.nextLine());
         int[] enteros = new int[largoArreglo] ;
         for (int i = 0; i < largoArreglo; i++){
-            System.out.print("Prporciona el valor enteros[" + i + "]: ");
+            System.out.print("Proporciona el valor enteros[" + i + "]: ");
             enteros[i] = Integer.parseInt(consola.nextLine());
             {
                 
