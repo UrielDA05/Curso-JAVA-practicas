@@ -10,7 +10,6 @@ public class ValoresArreglos {
             System.out.print("Proporciona el valor enteros[" + i + "]: ");
             enteros[i] = Integer.parseInt(consola.nextLine());
             {
-                
         System.out.println("\n Impresion del arreglo: ");
         for (int i = 0; i < largoArreglo; i++){
             System.out.println("enterso[" + i + "]: "+enteros[i]);
