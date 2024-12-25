@@ -6,6 +6,7 @@ public class OperadorTernario {
         System.out.print("Ingrese el primer numero: ");
         var num1 = Integer.parseInt(consola.nextLine());
         System.out.print("Ingrese el segundo numero");
-       
+        var num2 = Integer.parseInt(consola.nextLine());
+        System.out.println( num1 >num2 ? num1 : num2);
     }
 }
