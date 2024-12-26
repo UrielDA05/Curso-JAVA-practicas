@@ -4,7 +4,9 @@ public class SintaxisSimplificada {
         System.out.println("Valor 1: " + enteros[0]);
         System.out.println("Valor 2: " + enteros[1]);
         System.out.println("Valor 3: " + enteros[2]);
-        
+        System.out.println("Valor 4: " + enteros[3]);
+        System.out.println("Valor 5: " + enteros[4]);
+        System.out.println();
         // imprimir direccion de memoria
         System.out.println(enteros);
         System.out.println();
