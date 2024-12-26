@@ -8,7 +8,10 @@ public class Promedio {
         var numMaterias = Integer.parseInt(consola.nextLine());
         float[] calificaciion = new float[numMaterias];
         double acum = 0.0;
-        
+        for (int x = 0; x < numMaterias; x++){
+            System.out.print("Ingrese la calificacion[" + x + "] = ");
+            calificaciion[x] =Float.parseFloat(consola.nextLine());
+            acum += calificaciion[x];
         }
         System.out.println("Promedio: " + (acum/numMaterias));
     }
