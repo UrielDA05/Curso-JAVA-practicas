@@ -5,7 +5,9 @@ public class AreaRectangulo {
         var consola = new Scanner(System.in);
         System.out.println("CAlCULO DE AREA DE RECTANGULO");
         System.out.print("Ingrese la medida de la base: ");
-        
+        var base = Integer.parseInt(consola.nextLine());
+        System.out.print("Ingrese la medida de la altura: ");
+        var altura = Integer.parseInt(consola.nextLine());
         var area = 0;
         area = base * altura;
         System.out.println("El area del rectangulo es de: " + area);
