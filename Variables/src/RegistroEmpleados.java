@@ -12,7 +12,7 @@ public class RegistroEmpleados {
         var sueldo = Float.parseFloat(consola.nextLine());
         System.out.print("Eres un empleado de confianza(true/false)? ");
         var respuesta = consola.nextLine();
-
+        
         System.out.println("Informacion proporcionad: ");
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad);
