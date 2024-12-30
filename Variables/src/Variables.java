@@ -1,6 +1,6 @@
 public class Variables {
     public static void main(String[] args) {
-        // variables
+        // variables 
         var edad = 30;
         double sueldo = 20300.50;
         String nombre = "Juan";

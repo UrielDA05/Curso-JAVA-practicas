@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ConversionDatos {
     public static void main(String[] args) {
         //Coonversio de tipos de datos
-        var consola=new Scanner(System.in);
+        var consola = new Scanner(System.in);
         System.out.print("Numero 1: ");
         var numero1 = consola.nextLine();
         System.out.print("Numero 2: ");
