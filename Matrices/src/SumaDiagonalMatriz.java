@@ -13,6 +13,7 @@ public class SumaDiagonalMatriz {
                             a + "," + b));
                 }
             }
+
             int q =0;
             for (int c = 0; c < filas; c++) {
 
