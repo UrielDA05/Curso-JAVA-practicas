@@ -1,11 +1,13 @@
 public class Funciones {
-    // Definir la funcion saludar
-    static void saludar(String mensaje){
-        System.out.println("Mensaje: " + mensaje);
+    // Definir la funcion sumar
+    static int sumar(int a, int b){
+        int reultado = a + b;
+        return reultado;
     }
 
     public static void main(String[] args) {
-        saludar("Hola");
-        saludar("Adios");
+        int arg1 = 5, arg2 = 3;
+        var res = sumar(arg1,arg2);
+        System.out.println("Resultado: " + res);
     }
 }
