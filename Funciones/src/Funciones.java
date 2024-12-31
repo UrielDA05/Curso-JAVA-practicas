@@ -9,5 +9,7 @@ public class Funciones {
         int arg1 = 5, arg2 = 3;
         var res = sumar(arg1,arg2);
         System.out.println("Resultado: " + res);
+        res = sumar(12,43);
+        System.out.println("Resultado: " + res);
     }
 }
