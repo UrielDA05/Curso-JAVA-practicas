@@ -8,6 +8,7 @@ public class Numero_Par {
         else
            return false;
        // return (numero % 2 == 0)? true : false;
+        
     }
     public static void main(String[] args) {
         System.out.print("Proporciona un número entero: ");
