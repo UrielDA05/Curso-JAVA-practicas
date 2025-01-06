@@ -10,6 +10,9 @@ public class LargoCadena {
         }
         // Subcadenas
         // substring (indice_inicio, indice_fin)
-        
+        var subcadena1 = cadena.substring(0,4);
+        var subcadena2 = cadena.substring(5,10);
+        System.out.println("Subcadena Hola: " + subcadena1);
+        System.out.println("Subcadena MUndo: " + subcadena2);
     }
 }
