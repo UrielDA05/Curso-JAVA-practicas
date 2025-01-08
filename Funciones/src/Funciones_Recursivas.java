@@ -3,6 +3,7 @@ public class Funciones_Recursivas {
 
     // Definir funcion recursiva
     static void funcionRecursiva(int numero){
+        
         // Caso base
         if (numero == 1)
             System.out.println(numero);
