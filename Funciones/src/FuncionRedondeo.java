@@ -12,6 +12,7 @@ public class FuncionRedondeo {
         var patron = "#";
         var decimalFormat = new DecimalFormat(patron);
         var numeroFormato = decimalFormat.format(numero);
+        
         System.out.println("Valor " + numero + " con formato: " + numeroFormato);
     }
 }
