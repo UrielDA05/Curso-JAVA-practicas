@@ -8,7 +8,7 @@ public class Funciones_Recursivas {
             System.out.println(numero);
         else {
             // Caso recursivo
-            System.out.print(numero + " ");
+            System.out.print(numero + "  ");
             // Si se llama primero la funcion, se imprime de forma acendente
             funcionRecursiva(numero - 1);
         }
