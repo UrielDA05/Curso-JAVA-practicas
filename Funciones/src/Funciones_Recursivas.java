@@ -13,6 +13,7 @@ public class Funciones_Recursivas {
             funcionRecursiva(numero - 1);
         }
     }
+
     public static void main(String[] args) {
         funcionRecursiva(5);
     }
