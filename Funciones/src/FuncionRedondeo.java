@@ -9,6 +9,9 @@ public class FuncionRedondeo {
         System.out.println("Valor " + numero + " redondeado: " + redondeo);
         // Formato
         //var patron = "#.##";
-
+        var patron = "#";
+        var decimalFormat = new DecimalFormat(patron);
+        var numeroFormato = decimalFormat.format(numero);
+        System.out.println("Valor " + numero + " con formato: " + numeroFormato);
     }
 }
