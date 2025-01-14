@@ -1,10 +1,15 @@
 import javax.swing.*;
+import java.text.DecimalFormat;
+import java.util.Random;
 
 public class GeneradorID {
     public static void main(String[] args) {
         // Declaracion de variables
         String nombre, apellido;
         short anioNacimineto;
+        var aleatoirio = new Random();
+        var formato = "# # # #";
+        var decimalFormat = new DecimalFormat(formato);
 
         // Solicitud de valores
         nombre = JOptionPane.showInputDialog("Ingresa tu nombre");
@@ -18,8 +23,11 @@ public class GeneradorID {
         // Extraccion de caracteres
         var subcadena1 = nombre.substring(0,2);
         var subcadena2 = apellido.substring(0,2);
-        
-        //System.out.println(subcadena1);
 
+        // Valores aleatorios
+        var valorAleatorio = aleatoirio.nextInt(0,10000);
+        var valorAleatorioFor = decimalFormat.format(valorAleatorio);
+
+        JOptionPane.showMessageDialog(null,"Su ID es: " +subcadena1 + subcadena2 + anioNacimineto + valorAleatorioFor );
     }
 }
