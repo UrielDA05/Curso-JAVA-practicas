@@ -5,11 +5,10 @@ import java.util.Random;
 public class GeneradorID {
     public static void main(String[] args) {
 
-        generadorID obj1 = new generadorID();
-        obj1.ingresar();
+        generadorID();
+
     }
-public class generadorID{
-        static void ingresar(){
+        static void generadorID(){
             // Declaracion de variables
             String nombre, apellido;
             short anioNacimineto;
@@ -38,4 +37,4 @@ public class generadorID{
         }
 
     }
-}
+
