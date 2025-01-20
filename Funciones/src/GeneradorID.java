@@ -32,7 +32,7 @@ public class GeneradorID {
             // Valores aleatorios
             var valorAleatorio = aleatoirio.nextInt(0,10000);
             var valorAleatorioFor = decimalFormat.format(valorAleatorio);
-
+            var id = subcadena1 + subcadena2 + anioNacimineto + valorAleatorioFor;
             JOptionPane.showMessageDialog(null,"Su ID es: " +subcadena1 + subcadena2 + anioNacimineto + valorAleatorioFor );
         }
 
