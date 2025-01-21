@@ -9,5 +9,7 @@ public class GeneradorCorreo {
         var nombre = JOptionPane.showInputDialog("Ingresa tu nombre").toLowerCase();
 
         // Solicitud de apellido
+        var apellido = JOptionPane.showInputDialog("Ingresa tu apellido").toLowerCase();
+
     }
 }
