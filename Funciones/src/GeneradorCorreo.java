@@ -3,7 +3,7 @@ import javax.swing.*;
 public class GeneradorCorreo {
     public static void main(String[] args) {
         correo();
-        JOptionPane.showMessageDialog(cadena);
+
     }
     static void correo() {
         // Solicitud de nombre
@@ -18,6 +18,6 @@ public class GeneradorCorreo {
         // Concatenacion
         var cadena = nombre + '.' + apellido + dir;
 
-
+        JOptionPane.showMessageDialog(cadena);
     }
 }
