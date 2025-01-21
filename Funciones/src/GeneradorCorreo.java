@@ -11,5 +11,8 @@ public class GeneradorCorreo {
         // Solicitud de apellido
         var apellido = JOptionPane.showInputDialog("Ingresa tu apellido").toLowerCase();
 
+        //
+        // Concatenacion
+        var cadena = nombre + '.' + apellido +
     }
 }
