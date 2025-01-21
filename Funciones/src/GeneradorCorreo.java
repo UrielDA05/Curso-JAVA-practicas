@@ -16,8 +16,8 @@ public class GeneradorCorreo {
         var dir = "@gmail.com";
 
         // Concatenacion
-        var cadena = nombre + '.' + apellido + dir;
+        var cad = nombre + '.' + apellido + dir;
 
-        JOptionPane.showMessageDialog(cadena);
+        JOptionPane.showMessageDialog(null,"Tu correo es: " + cad);
     }
 }
