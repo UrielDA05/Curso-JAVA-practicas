@@ -24,7 +24,12 @@ public class GeneradorID {
             nombre = nombre.toUpperCase();
             apellido = apellido.toUpperCase();
 
+            // Extraccion de caracteres
+            var subcadena1 = nombre.substring(0,2);
+            var subcadena2 = apellido.substring(0,2);
 
+
+        }
 
     }
 
