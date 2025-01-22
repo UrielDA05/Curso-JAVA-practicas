@@ -28,7 +28,11 @@ public class GeneradorID {
             var subcadena1 = nombre.substring(0,2);
             var subcadena2 = apellido.substring(0,2);
 
-
+            // Valores aleatorios
+            var valorAleatorio = aleatoirio.nextInt(0,10000);
+            var valorAleatorioFor = decimalFormat.format(valorAleatorio);
+            var id = subcadena1 + subcadena2 + anioNacimineto + valorAleatorioFor;
+            JOptionPane.showMessageDialog(null,"Su ID es: " + id );
         }
 
     }
