@@ -15,6 +15,11 @@ public class GeneradorID {
             var formato = "# # # #";
             var decimalFormat = new DecimalFormat(formato);
 
+            // Solicitud de valores
+            nombre = JOptionPane.showInputDialog("Ingresa tu nombre");
+            apellido = JOptionPane.showInputDialog("Ingresa tu apellido");
+            anioNacimineto =Short.parseShort(JOptionPane.showInputDialog("Ingresa tu anio de nacimiento"));
+
 
 
     }
