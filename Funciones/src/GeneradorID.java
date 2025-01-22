@@ -20,6 +20,10 @@ public class GeneradorID {
             apellido = JOptionPane.showInputDialog("Ingresa tu apellido");
             anioNacimineto =Short.parseShort(JOptionPane.showInputDialog("Ingresa tu anio de nacimiento"));
 
+            // Pasar datos a mayusculas
+            nombre = nombre.toUpperCase();
+            apellido = apellido.toUpperCase();
+
 
 
     }
