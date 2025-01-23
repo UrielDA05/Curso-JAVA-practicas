@@ -1,5 +1,8 @@
 public class Persona {
-    public static void main(String[] args) {
+    String nombre;
+    String apellido;
 
+    void mostrarPersona(){
+        System.out.println("Nombre: " + nombre);
     }
 }
