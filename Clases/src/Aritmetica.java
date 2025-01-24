@@ -3,22 +3,26 @@ public class Aritmetica {
     int operando2;
 
     void sumar(){
-        int resultado = operando1 + operando2;
+        var resultado = operando1 + operando2;
         System.out.println("Resultado de la suma: " + resultado);
     }
 
     void restar(){
-        int resultado = operando1 - operando2;
+        var resultado = operando1 - operando2;
         System.out.println("Resultado de la resta: " + resultado);
     }
 
     void multiplicar(){
-        int resultado = operando1 * operando2;
+        var resultado = operando1 * operando2;
         System.out.println("Resultado de la multiplicacion: " + resultado);
     }
 
     void dividir{
-        int resultado = operando1 / operando2;
+        var resultado = operando1 / operando2;
         System.out.println("Resultado de la division: " + resultado);
+    }
+
+    public static void main(String[] args) {
+
     }
 }
