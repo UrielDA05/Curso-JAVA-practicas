@@ -12,5 +12,8 @@ public class Aritmetica {
         System.out.println("Resultado de la resta: " + resultado);
     }
 
-    
+    void multiplicar(){
+        int resultado = operando1 * operando2;
+        System.out.println("Resultado de la multiplicacion: " + resultado);
+    }
 }
