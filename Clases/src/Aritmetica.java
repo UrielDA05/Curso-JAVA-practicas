@@ -16,4 +16,9 @@ public class Aritmetica {
         int resultado = operando1 * operando2;
         System.out.println("Resultado de la multiplicacion: " + resultado);
     }
+
+    void dividir{
+        int resultado = operando1 / operando2;
+        System.out.println("Resultado de la division: " + resultado);
+    }
 }
