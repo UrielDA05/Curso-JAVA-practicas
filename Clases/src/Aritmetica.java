@@ -6,5 +6,11 @@ public class Aritmetica {
         int resultado = operando1 + operando2;
         System.out.println("Resultado de la suma: " + resultado);
     }
+
+    void restar(){
+        int resultado = operando1 - operando2;
+        System.out.println("Resultado de la resta: " + resultado);
+    }
+
     
 }
