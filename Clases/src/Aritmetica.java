@@ -4,5 +4,7 @@ public class Aritmetica {
 
     void sumar(){
         int resultado = operando1 + operando2;
+        System.out.println("Resultado de la suma: " + resultado);
     }
+    
 }
