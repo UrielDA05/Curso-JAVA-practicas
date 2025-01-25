@@ -25,6 +25,7 @@ public class Aritmetica {
     }
 
     public static void main(String[] args) {
+
         var seleccion = JOptionPane.showInputDialog("""
                 LISTA DE OPERACIONES
                 1. Suma
@@ -34,7 +35,7 @@ public class Aritmetica {
                 Ingrese el numero de la operacion a realizar""");
         switch (seleccion){
             case 1:
-
+                var obj1 = new sumar();
         }
 
     }
