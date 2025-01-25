@@ -24,9 +24,11 @@ public class Aritmetica {
         System.out.println("Resultado de la division: " + resultado);
     }
 
-    public static void main() {
+    public static void main(String [] args) {
         var aritmetica1 = new Aritmetica();
-        aritmetica1.operando1 = JOptionPane.showInputDialog("Ingrese un valor");
+        int v1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor"));
+        aritmetica1.operando1 = v1;
+        int v2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un segundo valor"));
         var seleccion = JOptionPane.showInputDialog("""
                 LISTA DE OPERACIONES
                 1. Suma
