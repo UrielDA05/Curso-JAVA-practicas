@@ -29,13 +29,13 @@ public class Aritmetica {
         int v1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor"));
         aritmetica1.operando1 = v1;
         int v2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un segundo valor"));
-        var seleccion = JOptionPane.showInputDialog("""
+        var seleccion = Integer.parseInt(JOptionPane.showInputDialog("""
                 LISTA DE OPERACIONES
                 1. Suma
                 2. Resta
                 3. Multiplicacion
                 4. Division\t
-                Ingrese el numero de la operacion a realizar""");
+                Ingrese el numero de la operacion a realizar"""));
         switch (seleccion){
             case 1:
                 aritmetica1.sumar();
