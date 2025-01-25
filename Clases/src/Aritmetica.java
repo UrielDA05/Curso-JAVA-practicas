@@ -26,6 +26,8 @@ public class Aritmetica {
 
     public static void main(String [] args) {
         var aritmetica1 = new Aritmetica();
+
+        // Solicitud de valores
         int v1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor"));
         aritmetica1.operando1 = v1;
         int v2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un segundo valor"));
