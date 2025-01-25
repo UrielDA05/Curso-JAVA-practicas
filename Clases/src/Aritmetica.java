@@ -24,8 +24,9 @@ public class Aritmetica {
         System.out.println("Resultado de la division: " + resultado);
     }
 
-    public static void main(String[] args) {
-
+    public static void main() {
+        var aritmetica1 = new Aritmetica();
+        aritmetica1.operando1 = JOptionPane.showInputDialog("Ingrese un valor");
         var seleccion = JOptionPane.showInputDialog("""
                 LISTA DE OPERACIONES
                 1. Suma
@@ -35,7 +36,12 @@ public class Aritmetica {
                 Ingrese el numero de la operacion a realizar""");
         switch (seleccion){
             case 1:
-                var obj1 = new sumar();
+                aritmetica1.sumar();
+            break;
+            case 2:
+                aritmetica1.restar();
+            break;
+
         }
 
     }
