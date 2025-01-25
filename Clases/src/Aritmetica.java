@@ -46,7 +46,14 @@ public class Aritmetica {
             case 2:
                 aritmetica1.restar();
             break;
-
+            case 3:
+                aritmetica1.multiplicar();
+            break;
+            case 4:
+                aritmetica1.dividir();
+            break;
+            default:
+                JOptionPane.showMessageDialog(null,"Ingrese un valor correcto");
         }
 
     }
