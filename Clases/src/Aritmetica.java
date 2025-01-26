@@ -6,7 +6,7 @@ public class Aritmetica {
 
     void sumar(){
         var resultado = operando1 + operando2;
-            JOptionPane.showMessageDialog(null,"Resultado de la suma: " + resultado);
+        JOptionPane.showMessageDialog(null,"Resultado de la suma: " + resultado);
     }
 
     void restar(){
@@ -16,12 +16,12 @@ public class Aritmetica {
 
     void multiplicar(){
         var resultado = operando1 * operando2;
-        System.out.println("Resultado de la multiplicacion: " + resultado);
+        JOptionPane.showMessageDialog(null,"Resultado de la multiplicacion: " + resultado);
     }
 
     void dividir(){
         var resultado = operando1 / operando2;
-        System.out.println("Resultado de la division: " + resultado);
+        JOptionPane.showMessageDialog(null,"Resultado de la division: " + resultado);
     }
 
     public static void main(String [] args) {
