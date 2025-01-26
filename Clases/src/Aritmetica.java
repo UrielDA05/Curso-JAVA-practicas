@@ -35,7 +35,9 @@ public class Aritmetica {
         aritmetica1.operando2 = v2;
 
         // Solicitud de valores para aritmetica 2
-        
+        int val1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor"));
+        aritmetica2.operando1 = val1;
+
 
         // Seleccion d eoperacion
         var seleccion = Integer.parseInt(JOptionPane.showInputDialog("""
