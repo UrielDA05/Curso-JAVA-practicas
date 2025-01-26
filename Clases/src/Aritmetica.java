@@ -6,12 +6,12 @@ public class Aritmetica {
 
     void sumar(){
         var resultado = operando1 + operando2;
-        System.out.println("Resultado de la suma: " + resultado);
+            JOptionPane.showMessageDialog(null,"Resultado de la suma: " + resultado);
     }
 
     void restar(){
         var resultado = operando1 - operando2;
-        System.out.println("Resultado de la resta: " + resultado);
+        JOptionPane.showMessageDialog(null,"Resultado de la resta: " + resultado);
     }
 
     void multiplicar(){
