@@ -51,18 +51,22 @@ public class Aritmetica {
         switch (seleccion){
             case 1:
                 aritmetica1.sumar();
+                aritmetica2.sumar();
             break;
             case 2:
                 aritmetica1.restar();
+                aritmetica2.restar();
             break;
             case 3:
                 aritmetica1.multiplicar();
+                aritmetica2.multiplicar();
             break;
             case 4:
                 aritmetica1.dividir();
+                aritmetica2.dividir();
             break;
             default:
-                JOptionPane.showMessageDialog(null,"Ingrese un valor correcto");
+                JOptionPane.showMessageDialog(null,"Ingrese un valor valido");
         }
 
     }
