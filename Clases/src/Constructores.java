@@ -12,6 +12,7 @@ public class Constructores {
     public Constructores(int operando1, int operando2){
         this.operando1 = operando1;
         this.operando2 = operando2;
+        JOptionPane.showMessageDialog(null,"Direccion operador this: " + this);
     }
     void sumar(){
         var resultado = operando1 + operando2;
