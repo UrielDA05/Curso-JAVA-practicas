@@ -38,6 +38,8 @@ public class Constructores {
         var operando = new Constructores(9,8);
         operando.multiplicar();
         var op = new Constructores( );
+        op.operando1 = 10;
+        op.operando2 = 5;
         op.sumar();
     }
 }
