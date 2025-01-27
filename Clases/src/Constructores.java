@@ -3,6 +3,12 @@ import javax.swing.*;
 public class Constructores {
     int operando1;
     int operando2;
+
+    // Constructor vacio
+    public Constructores(){
+
+    }
+    // Constructor con parametros
     public Constructores(int op1, int op2){
         operando1 = op1;
         operando2 = op2;
@@ -31,6 +37,8 @@ public class Constructores {
 
         var operando = new Constructores(9,8);
         operando.multiplicar();
+        var op = new Constructores( );
+        op.sumar();
     }
 }
 
