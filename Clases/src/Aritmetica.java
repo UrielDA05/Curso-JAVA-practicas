@@ -6,6 +6,8 @@ public class Aritmetica {
 
     // constructor
    // public Aritmetica(int op1,int op2){
+    // operando1 = op1;
+    // operando2 = op2
     //}
     void sumar(){
         var resultado = operando1 + operando2;
