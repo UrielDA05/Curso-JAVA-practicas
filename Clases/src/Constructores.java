@@ -28,7 +28,9 @@ public class Constructores {
     }
 
     public static void main(String[] args) {
-        System.out.println();
+
+        var operando = new Constructores(9,8);
+        operando.multiplicar();
     }
 }
 
