@@ -9,9 +9,9 @@ public class Constructores {
 
     }
     // Constructor con parametros
-    public Constructores(int op1, int op2){
-        operando1 = op1;
-        operando2 = op2;
+    public Constructores(int operando1, int operando2){
+        this.operando1 = operando1;
+        this.operando2 = operando2;
     }
     void sumar(){
         var resultado = operando1 + operando2;
@@ -37,10 +37,7 @@ public class Constructores {
 
         var operando = new Constructores(9,8);
         operando.multiplicar();
-        var op = new Constructores( );
-        op.operando1 = 10;
-        op.operando2 = 5;
-        op.sumar();
+
     }
 }
 
