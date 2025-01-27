@@ -26,5 +26,9 @@ public class Constructores {
         var resultado = operando1 / operando2;
         JOptionPane.showMessageDialog(null,"Resultado de la division: " + resultado);
     }
+
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }
 
