@@ -4,10 +4,6 @@ public class Constructores {
     int operando1;
     int operando2;
 
-    // Constructor vacio
-    public Constructores(){
-
-    }
     // Constructor con parametros
     public Constructores(int operando1, int operando2){
         this.operando1 = operando1;
