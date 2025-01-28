@@ -39,6 +39,8 @@ public class Constructores {
         var operando = new Constructores(9,8);
         operando.multiplicar();
         JOptionPane.showMessageDialog(null,"Direccion de memoria: " + operando);
+        var operando2 = new Constructores(12,16);
+        JOptionPane.showMessageDialog(null,"Dir. memoraia obj2: " + operando2);
     }
 }
 
