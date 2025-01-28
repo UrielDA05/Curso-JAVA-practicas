@@ -1,3 +1,5 @@
+package aritmetica;
+
 import javax.swing.*;
 
 public class Constructores {
