@@ -12,33 +12,26 @@ public class Constructores {
         this.operando2 = operando2;
         JOptionPane.showMessageDialog(null,"Direccion operador this: " + this);
     }
-    void sumar(){
+    public void sumar(){
         var resultado = operando1 + operando2;
         JOptionPane.showMessageDialog(null,"Resultado de la suma: " + resultado);
     }
 
-    void restar(){
+    public void restar(){
         var resultado = operando1 - operando2;
         JOptionPane.showMessageDialog(null,"Resultado de la resta: " + resultado);
     }
 
-    void multiplicar(){
+    public void multiplicar(){
         var resultado = operando1 * operando2;
         JOptionPane.showMessageDialog(null,"Resultado de la multiplicacion: " + resultado);
     }
 
-    void dividir(){
+    public void dividir(){
         var resultado = operando1 / operando2;
         JOptionPane.showMessageDialog(null,"Resultado de la division: " + resultado);
     }
 
-    public static void main(String[] args) {
 
-        var operando = new Constructores(9,8);
-        operando.multiplicar();
-        JOptionPane.showMessageDialog(null,"Direccion de memoria: " + operando);
-        var operando2 = new Constructores(12,16);
-        JOptionPane.showMessageDialog(null,"Dir. memoraia obj2: " + operando2);
-    }
 }
 
