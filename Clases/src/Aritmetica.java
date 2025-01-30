@@ -73,6 +73,7 @@ public class Aritmetica {
             break;
             default:
                 JOptionPane.showMessageDialog(null,"Ingrese un valor valido");
+                
         }
 
     }
