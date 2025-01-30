@@ -4,7 +4,7 @@ public class Aritmetica {
     int operando1;
     int operando2;
 
-    // constructor
+    
    
     void sumar(){
         var resultado = operando1 + operando2;
