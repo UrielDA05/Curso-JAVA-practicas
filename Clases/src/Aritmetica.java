@@ -5,10 +5,7 @@ public class Aritmetica {
     int operando2;
 
     // constructor
-   // public Aritmetica(int op1,int op2){
-    // operando1 = op1;
-    // operando2 = op2
-    //}
+   
     void sumar(){
         var resultado = operando1 + operando2;
         JOptionPane.showMessageDialog(null,"Resultado de la suma: " + resultado);
