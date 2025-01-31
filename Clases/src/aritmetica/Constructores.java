@@ -8,6 +8,7 @@ public class Constructores {
      // Constructor con parametros
     public Constructores(int operando1, int operando2){
         this.operando1 = operando1;
+        this.operando2 = operando2;
         
         
     }
