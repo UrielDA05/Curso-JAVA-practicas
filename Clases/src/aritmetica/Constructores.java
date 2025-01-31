@@ -6,7 +6,8 @@ public class Constructores {
     int operando2;
 
      // Constructor con parametros
-    
+    public Constructores(int operando1, int operando2){
+        
         
     }
     public void sumar(){
