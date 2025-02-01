@@ -11,6 +11,6 @@ public class PruebaAritmetica {
         var operando2 = new Constructores(12,16);
         operando2.sumar();
         var operando3 = new Constructores(3,4);
-        operando3
+        operando3. dividir();
     }
 }
