@@ -9,6 +9,7 @@ public class Aritmetica {
     // operando1 = op1;
     // operando2 = op2
     //}
+   
     void sumar(){
         var resultado = operando1 + operando2;
         JOptionPane.showMessageDialog(null,"Resultado de la suma: " + resultado);
@@ -72,6 +73,7 @@ public class Aritmetica {
             break;
             default:
                 JOptionPane.showMessageDialog(null,"Ingrese un valor valido");
+                
         }
 
     }

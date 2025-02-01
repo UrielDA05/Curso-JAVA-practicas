@@ -13,7 +13,7 @@ public class Persona {
         obj1.nombre = "Uriel";
         obj1.apellido = "Atenogenes";
         obj1.mostrarPersona();
-
+        
         var obj2 = new Persona();
         obj2.nombre = "Layla";
         obj2.apellido = "Acosta";
