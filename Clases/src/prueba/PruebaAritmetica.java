@@ -10,5 +10,6 @@ public class PruebaAritmetica {
         operando2.sumar();
         var operando3 = new Aritmetica(3,4);
         operando3. dividir();
+        var operando3 = new Aritmetica(6,2);
     }
 }
