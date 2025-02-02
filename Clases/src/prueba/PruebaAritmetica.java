@@ -1,7 +1,6 @@
 package prueba;
 import aritmetica.Constructores;
 
-
 public class PruebaAritmetica {
     public static void main(String[] args) {
 
