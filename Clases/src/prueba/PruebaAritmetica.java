@@ -8,7 +8,7 @@ public class PruebaAritmetica {
         operando.multiplicar();
         var operando2 = new Aritmetica(12,16);
         operando2.sumar();
-        var operando3 = new Constructores(3,4);
+        var operando3 = new Aritmetica(3,4);
         operando3. dividir();
     }
 }
