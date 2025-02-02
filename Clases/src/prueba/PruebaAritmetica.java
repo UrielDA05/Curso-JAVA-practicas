@@ -10,6 +10,7 @@ public class PruebaAritmetica {
         operando2.sumar();
         var operando3 = new Aritmetica(3,4);
         operando3. dividir();
-        var operando3 = new Aritmetica(6,2);
+        var operando4 = new Aritmetica(6,2);
+        operando4.restar();
     }
 }
