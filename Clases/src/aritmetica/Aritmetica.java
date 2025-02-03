@@ -36,5 +36,9 @@ public class Aritmetica {
         return this.operando1;
     }
 
+    public void setOperando1(int operando1){
+        this.operando1 = operando1;
+    }
+
 }
 
