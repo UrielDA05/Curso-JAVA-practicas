@@ -31,6 +31,7 @@ public class Aritmetica {
         var resultado = operando1 / operando2;
         JOptionPane.showMessageDialog(null,"Resultado de la division: " + resultado);
     }
+    
     public int getOperando1{
         return this.operando1;
     }
