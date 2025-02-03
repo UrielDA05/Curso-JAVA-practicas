@@ -3,8 +3,8 @@ package aritmetica;
 import javax.swing.*;
 
 public class Aritmetica {
-    int operando1;
-    int operando2;
+    private int operando1;
+    private int operando2;
 
     // Constructor con parametros
     public Aritmetica(int operando1, int operando2){
