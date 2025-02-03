@@ -7,12 +7,6 @@ public class PruebaAritmetica {
         var operando = new Aritmetica(9,8);
         operando.getOperando1(); // 9
         System.out.println("Valor de operando 1: " + operando.getOperando1());
-        operando.multiplicar();
-        var operando2 = new Aritmetica(12,16);
-        operando2.sumar();
-        var operando3 = new Aritmetica(3,4);
-        operando3. dividir();
-        var operando4 = new Aritmetica(6,2);
-        operando4.restar();
+
     }
 }
