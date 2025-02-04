@@ -40,5 +40,8 @@ public class Aritmetica {
         this.operando1 = operando1;
     }
 
+    public int getOperando2(){
+        return this.operando2;
+    }
 }
 
