@@ -44,7 +44,7 @@ public class Aritmetica {
         return this.operando2;
     }
 
-    public void setOperando2(){
+    public void setOperando2(int operando2){
         this.operando2 = operando2;
     }
 }
