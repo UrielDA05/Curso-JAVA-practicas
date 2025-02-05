@@ -1,12 +1,12 @@
 package persona;
 
 public class Persona {
-    String nombre;
-    String apellido;
+    private String nombre;
+    private String apellido;
 
-    void mostrarPersona(){
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Apellido: " + apellido);
+    void mostrarPersona(String nombre, String apellido){
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 
     public static void main(String[] args) {
