@@ -1,18 +1,16 @@
 package persona;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class Persona {
     private String nombre;
     private String apellido;
 
-    void mostrarNombre(String nombre){
+    public void mostrarNombre(String nombre){
         this.nombre = nombre;
-        nombre = JOptionPane.showInputDialog("Ingrese su nombre");
     }
-    void mostrarApellido(String apellido){
+    public void mostrarApellido(String apellido){
         this.apellido = apellido;
-        apellido = JOptionPane.showInputDialog("Ingrese su apellido");
     }
     
     public String getNombre(){
