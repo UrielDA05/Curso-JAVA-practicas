@@ -4,14 +4,23 @@ public class Persona {
     private String nombre;
     private String apellido;
 
-    void mostrarPersona(String nombre, String apellido){
+    void mostrarNombre(String nombre){
         this.nombre = nombre;
-        this.apellido = apellido;
+
     }
-    public void getNombre(){
+    void mostrarApellido(String apellido){
+        this.apellido = apellido;
+
+    }
+    
+    public String getNombre(){
         return this.nombre;
     }
-    public void getApellido(){
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+
+    public String getApellido(){
         return this.apellido ;
     }
 }
