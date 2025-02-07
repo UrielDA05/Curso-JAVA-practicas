@@ -26,6 +26,6 @@ public class Persona {
 
     // Mostrar datos
     public void mostrar{
-
+        JOptionPane.showMessageDialog("Su nombre es: " + nombre + apellido);
     }
 }
