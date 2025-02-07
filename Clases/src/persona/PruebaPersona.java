@@ -5,5 +5,7 @@ public class PruebaPersona {
         var nom = new Persona();
         nom.setNombre("Uriel");
         nom.getNombre();
+        var ape = new Persona();
+        ape.setApellido("Atenogenes");
     }
 }
