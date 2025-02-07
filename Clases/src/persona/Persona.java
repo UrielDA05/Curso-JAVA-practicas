@@ -23,6 +23,9 @@ public class Persona {
     public String getApellido(){
         return this.apellido ;
     }
+    public void setApellido(){
+        this.apellido =apellido;
+    }
 
     // Mostrar datos
     public void mostrar{
