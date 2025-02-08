@@ -6,13 +6,11 @@ public class Persona {
     private String nombre;
     private String apellido;
 
-    public void mostrarNombre(String nombre){
+    public void datos(String nombre, String apellido){
         this.nombre = nombre;
-    }
-    public void mostrarApellido(String apellido){
         this.apellido = apellido;
     }
-    
+
     public String getNombre(){
         return this.nombre;
     }
