@@ -23,12 +23,12 @@ public class Persona {
     public String getApellido(){
         return this.apellido ;
     }
-    public void setApellido(){
-        this.apellido =apellido;
+    public void setApellido(String apellido){
+        this.apellido = apellido;
     }
 
     // Mostrar datos
-    public void mostrar{
-        JOptionPane.showMessageDialog("Su nombre es: " + nombre + apellido);
+    public void mostrar(){
+        JOptionPane.showMessageDialog(null,"Su nombre es: " + nombre + apellido);
     }
 }
