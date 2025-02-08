@@ -4,8 +4,9 @@ public class PruebaPersona {
     public static void main(String[] args) {
         var nom = new Persona();
         nom.setNombre("Uriel");
-        nom.getNombre();
         var ape = new Persona();
         ape.setApellido("Atenogenes");
+        var mos = new Persona();
+        mos.mostrar();
     }
 }
