@@ -1,6 +1,6 @@
 package persona;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class PruebaPersona {
     public static void main(String[] args) {
