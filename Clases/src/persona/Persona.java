@@ -1,12 +1,11 @@
 package persona;
-
 import javax.swing.JOptionPane;
 
 public class Persona {
     private String nombre;
     private String apellido;
 
-    public void datos(String nombre, String apellido){
+    public void Persona(String nombre, String apellido){
         this.nombre = nombre;
         this.apellido = apellido;
     }
