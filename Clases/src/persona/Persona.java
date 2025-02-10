@@ -25,9 +25,5 @@ public class Persona {
         this.apellido = apellido;
     }
 
-    // Mostrar datos
-    public void mostrar(){
-        var name = "Su nombre es: " + this.nombre + " " + this.apellido;
-        JOptionPane.showMessageDialog(null,name);
-    }
+
 }
