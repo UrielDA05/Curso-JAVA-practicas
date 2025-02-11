@@ -1,5 +1,5 @@
 package persona;
-import javax.swing.JOptionPane;
+
 
 public class Persona {
     private String nombre;
