@@ -8,6 +8,7 @@ public class PruebaPersona {
         obj1.setNombre("Uriel");
         obj1.setApellido(" De Jesus");
 
+        var obj2 = new Persona();
         
     }
 }
