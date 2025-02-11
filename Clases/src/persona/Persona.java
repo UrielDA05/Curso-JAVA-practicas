@@ -26,6 +26,7 @@ public class Persona {
     }
 
     public void mostrar(){
-        JOptionPane.showMessageDialog(null, );
+        JOptionPane.showMessageDialog(null, "Nombre: " + this.nombre );
+        JOptionPane.showMessageDialog(null, "Apellido: " + this.apellido);
     }
 }
