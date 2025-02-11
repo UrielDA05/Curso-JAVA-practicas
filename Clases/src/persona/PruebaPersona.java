@@ -9,6 +9,7 @@ public class PruebaPersona {
         obj1.setApellido(" De Jesus");
 
         var obj2 = new Persona();
-        
+        obj2.setNombre("Gustavo");
+        obj2.setNombre("Atenogenes");
     }
 }
