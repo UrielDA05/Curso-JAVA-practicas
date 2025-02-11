@@ -1,5 +1,5 @@
 package persona;
-
+import javax.swing.JOptionPane;
 
 public class Persona {
     private String nombre;
@@ -25,5 +25,7 @@ public class Persona {
         this.apellido = apellido;
     }
 
-
+    public void mostrar(){
+        JOptionPane.showMessageDialog(null, );
+    }
 }
