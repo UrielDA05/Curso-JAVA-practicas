@@ -10,6 +10,7 @@ public class PruebaPersona {
         obj1.setApellido(a1);
         obj1.mostrar();
 
+        var n2 = JOptionPane.showInputDialog("Ingresa tu nombre");
         var obj2 = new Persona();
         obj2.setNombre("Gustavo");
         obj2.setApellido("Atenogenes");
