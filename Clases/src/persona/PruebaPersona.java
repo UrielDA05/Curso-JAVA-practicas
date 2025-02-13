@@ -13,7 +13,7 @@ public class PruebaPersona {
         var n2 = JOptionPane.showInputDialog("Ingresa tu nombre");
         var a2 = JOptionPane.showInputDialog("Ingresa tu apellido");
         var obj2 = new Persona();
-        obj2.setNombre("Gustavo");
+        obj2.setNombre(n2);
         obj2.setApellido("Atenogenes");
         obj2.mostrar();
     }
