@@ -7,6 +7,7 @@ public class PruebaPersona {
         var a1 = JOptionPane.showInputDialog("Ingrese su apellido");
         var obj1 = new Persona();
         obj1.getNombre();
+        obj1.getApellido();
         obj1.setNombre(n1);
         obj1.setApellido(a1);
         obj1.mostrar();
