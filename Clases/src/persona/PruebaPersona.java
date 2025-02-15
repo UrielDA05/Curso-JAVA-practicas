@@ -19,6 +19,7 @@ public class PruebaPersona {
         var obj2 = new Persona();
         obj2.getNombre();
         obj2.getNombre();
+        // Signacion de valores
         obj2.setNombre(n2);
         obj2.setApellido(a2);
         obj2.mostrar();
