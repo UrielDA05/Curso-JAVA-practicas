@@ -9,6 +9,7 @@ public class PruebaPersona {
         var obj1 = new Persona();
         obj1.getNombre();
         obj1.getApellido();
+        // Asignacion de valores
         obj1.setNombre(n1);
         obj1.setApellido(a1);
         obj1.mostrar();
@@ -19,7 +20,7 @@ public class PruebaPersona {
         var obj2 = new Persona();
         obj2.getNombre();
         obj2.getNombre();
-        // Signacion de valores
+        // Asignacion de valores
         obj2.setNombre(n2);
         obj2.setApellido(a2);
         obj2.mostrar();
