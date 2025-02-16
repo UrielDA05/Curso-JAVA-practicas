@@ -16,7 +16,7 @@ public class PruebaPersona {
         var n2 = JOptionPane.showInputDialog("Ingresa tu nombre");
         var a2 = JOptionPane.showInputDialog("Ingresa tu apellido");
         var obj2 = new Persona();
-        obj2.getNombre();
+
         // Asignacion de valores
         obj2.setNombre(n2);
         obj2.setApellido(a2);
