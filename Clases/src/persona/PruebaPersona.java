@@ -19,6 +19,6 @@ public class PruebaPersona {
         // Asignacion de valores
         obj2.setNombre(n2);
         obj2.setApellido(a2);
-        obj2.mostrar();
+        obj2.mostrar2();
     }
 }
