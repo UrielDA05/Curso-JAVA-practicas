@@ -10,7 +10,7 @@ public class PruebaPersona {
         // Asignacion de valores
         obj1.setNombre(n1);
         obj1.setApellido(a1);
-        obj1.mostrar();
+        obj1.mostrar1();
 
         // solicitud de datos persona 2
         var n2 = JOptionPane.showInputDialog("Ingresa tu nombre");
