@@ -27,6 +27,6 @@ public class Persona {
 
     public void mostrar1(){
         JOptionPane.showMessageDialog(null, "Nombrec de la primer persona: " + this.nombre );
-        JOptionPane.showMessageDialog(null, "Apellido: " + this.apellido);
+        JOptionPane.showMessageDialog(null, "Apellido de la primer persona: " + this.apellido);
     }
 }
