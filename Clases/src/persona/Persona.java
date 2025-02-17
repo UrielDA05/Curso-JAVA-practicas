@@ -25,8 +25,8 @@ public class Persona {
         this.apellido = apellido;
     }
 
-    public void mostrar(){
-        JOptionPane.showMessageDialog(null, "Nombre: " + this.nombre );
+    public void mostrar1(){
+        JOptionPane.showMessageDialog(null, "Nombrec de la primer persona: " + this.nombre );
         JOptionPane.showMessageDialog(null, "Apellido: " + this.apellido);
     }
 }
