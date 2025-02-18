@@ -11,8 +11,15 @@ public class Animal {
 }
 
 // Clase 2
-class perro extends Animal{
+class Perro extends Animal{
     public void hacer_sonido(){
         System.out.println("Puedo ladrar");
+    }
+}
+
+class PruebaAnimal{
+    public static void main(String[] args) {
+        System.out.println("*** Ejemplo Herencia ***");
+
     }
 }
