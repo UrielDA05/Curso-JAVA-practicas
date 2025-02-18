@@ -20,6 +20,6 @@ class Perro extends Animal{
 class PruebaAnimal{
     public static void main(String[] args) {
         System.out.println("*** Ejemplo Herencia ***");
-
+        System.out.println("Clase Padre: soy un animal");
     }
 }
