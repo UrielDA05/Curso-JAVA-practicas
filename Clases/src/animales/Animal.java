@@ -10,3 +10,9 @@ public class Animal {
     }
 }
 
+// Clase 2
+class perro extends Animal{
+    public void hacer_sonido(){
+        System.out.println("Puedo ladrar");
+    }
+}
