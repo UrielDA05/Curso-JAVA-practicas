@@ -21,5 +21,6 @@ class PruebaAnimal{
     public static void main(String[] args) {
         System.out.println("*** Ejemplo Herencia ***");
         System.out.println("Clase Padre: soy un animal");
+        var animal1 = new Animal();
     }
 }
