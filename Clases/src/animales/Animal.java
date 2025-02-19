@@ -23,5 +23,6 @@ class PruebaAnimal{
         System.out.println("Clase Padre: soy un animal");
         var animal1 = new Animal();
         animal1.comer();
+        animal1.dormir();
     }
 }
