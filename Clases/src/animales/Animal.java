@@ -24,5 +24,7 @@ class PruebaAnimal{
         var animal1 = new Animal();
         animal1.comer();
         animal1.dormir();
+        //animal1.hacersonido(); // Este metodo no existe en la clase padre
+        
     }
 }
