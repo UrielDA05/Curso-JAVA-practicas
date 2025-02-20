@@ -25,6 +25,7 @@ class PruebaAnimal{
         animal1.comer();
         animal1.dormir();
         //animal1.hacersonido(); // Este metodo no existe en la clase padre
-        
+
+        System.out.println("\n Clase hija");
     }
 }
