@@ -26,6 +26,8 @@ class PruebaAnimal{
         animal1.dormir();
         //animal1.hacersonido(); // Este metodo no existe en la clase padre
 
-        System.out.println("\n Clase hija");
+        System.out.println("\n Clase hija, soy un perro");
+        var perro1 = new Perro();
+        perro1.hacer_sonido();
     }
 }
