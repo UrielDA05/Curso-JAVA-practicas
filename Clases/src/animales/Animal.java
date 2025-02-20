@@ -29,5 +29,6 @@ class PruebaAnimal{
         System.out.println("\n Clase hija, soy un perro");
         var perro1 = new Perro();
         perro1.hacer_sonido();
+        perro1.comer();
     }
 }
