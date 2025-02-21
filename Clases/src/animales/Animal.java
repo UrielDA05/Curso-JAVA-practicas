@@ -17,7 +17,7 @@ class Perro extends Animal{
     }
     @Override
     public void dormir() {
-        System.out.println("Duermo 15 horas al ");
+        System.out.println("Duermo 15 horas al dia");
     }
 }
 
