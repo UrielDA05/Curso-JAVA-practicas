@@ -17,7 +17,7 @@ class Perro extends Animal{
     }
 
     public void dormir() {
-        System.out.println();
+        System.out.println("Duermo 15 horas al dia");
     }
 }
 
