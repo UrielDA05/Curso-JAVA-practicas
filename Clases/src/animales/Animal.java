@@ -30,5 +30,6 @@ class PruebaAnimal{
         var perro1 = new Perro();
         perro1.hacer_sonido();
         perro1.comer();
+        perro1.dormir();
     }
 }
