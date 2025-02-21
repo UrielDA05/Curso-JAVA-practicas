@@ -15,6 +15,10 @@ class Perro extends Animal{
     public void hacer_sonido(){
         System.out.println("Puedo ladrar");
     }
+
+    public void dormir() {
+        System.out.println();
+    }
 }
 
 class PruebaAnimal{
