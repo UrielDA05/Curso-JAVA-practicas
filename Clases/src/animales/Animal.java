@@ -11,22 +11,23 @@ public class Animal {
 }
 
 // Clase 2
-class Perro extends Animal{
-    public void hacer_sonido(){
+class Perro extends Animal {
+    public void hacer_sonido() {
         System.out.println("Puedo ladrar");
     }
+
     @Override
     public void dormir() {
         System.out.println("Duermo 15 horas al dia");
     }
-
+}
 // Clase 3
 class Gato extends Animal {
     public void hacer_sonido() {
         System.out.println("Puedo mauyar");
     }
-}    
 }
+
 
 class PruebaAnimal{
     public static void main(String[] args) {
@@ -42,5 +43,9 @@ class PruebaAnimal{
         perro1.hacer_sonido();
         perro1.comer();
         perro1.dormir();
+
+        System.out.println("\n Clase hija, soy un gato");
+        var gato1 = new Gato();
+
     }
 }
