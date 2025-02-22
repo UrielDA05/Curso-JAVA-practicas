@@ -22,7 +22,10 @@ class Perro extends Animal{
 
 // Clase 3
 class Gato extends Animal{
-
+    public void hacer_sonido(){
+        System.out.println("Puedo mauyar");
+    }
+    public v
 }
 }
 
