@@ -46,6 +46,7 @@ class PruebaAnimal{
 
         System.out.println("\n Clase hija, soy un gato");
         var gato1 = new Gato();
-
+        gato1.dormir();
+        gato1.hacer_sonido();
     }
 }
