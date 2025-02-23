@@ -48,5 +48,6 @@ class PruebaAnimal{
         var gato1 = new Gato();
         gato1.dormir();
         gato1.hacer_sonido();
+        gato1.comer();
     }
 }
