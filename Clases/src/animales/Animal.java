@@ -29,8 +29,11 @@ class Gato extends Animal {
         System.out.println("Puedo mauyar");
     }
 
+    @Override
     public void dormir(){
         System.out.println("Paso mas de 18 horas durmiendo");
+        System.out.println("Metodo de la clase padre");
+        super.dormir();
     }
 }
 
