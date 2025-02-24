@@ -30,7 +30,7 @@ class Gato extends Animal {
     }
 
     public void dormir(){
-
+        System.out.println("Paso la mayoria del dia durmiendo");
     }
 }
 
