@@ -8,7 +8,7 @@ public class Animal {
 
 // Clase 2
 class Perro extends Animal {
-    public void hacer_sonido() {
+    public void hacerSonido() {
         System.out.println("Puedo ladrar");
     }
 
