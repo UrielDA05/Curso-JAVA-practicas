@@ -1,7 +1,9 @@
 package animales;
 
 public class Animal {
-    
+    public void hacerSonido(){
+
+    }
 }
 
 // Clase 2
