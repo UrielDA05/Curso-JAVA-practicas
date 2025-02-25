@@ -8,15 +8,9 @@ public class Animal {
 
 // Clase 2
 class Perro extends Animal {
+    @Override
     public void hacerSonido() {
         System.out.println("Puedo ladrar");
-    }
-
-    @Override
-    public void dormir() {
-        System.out.println("Duermo 15 horas al dia");
-        System.out.println("Metodo de la clase padre: ");
-        super.dormir();
     }
 }
 // Clase 3
