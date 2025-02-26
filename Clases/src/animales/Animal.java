@@ -10,7 +10,7 @@ public class Animal {
 class Perro extends Animal {
     @Override
     public void hacerSonido() {
-        System.out.println("EL PERRO LADRA");
+        System.out.println("EL PERRO HACE GUAF");
     }
 }
 // Clase 3
