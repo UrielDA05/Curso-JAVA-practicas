@@ -24,18 +24,9 @@ class Gato extends Animal {
 
 class PruebaAnimal{
     public static void main(String[] args) {
-        System.out.println("*** Ejemplo Herencia ***");
-        System.out.println("Clase Padre: soy un animal");
-        var animal1 = new Animal();
-
-        //animal1.hacersonido(); // Este metodo no existe en la clase padre
-
-        System.out.println("\n Clase hija, soy un perro");
-        var perro1 = new Perro();
-
-
-        System.out.println("\n Clase hija, soy un gato");
-        var gato1 = new Gato();
+        System.out.println("*** Ejemplo de Polimorfismo ***");
+       var animal = new Animal();
+       animal.hacerSonido();
 
     }
 }
