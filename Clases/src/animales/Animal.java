@@ -29,7 +29,7 @@ class PruebaAnimal{
        // var animal = new Perro();
        animal.hacerSonido();
        var animalPerro = new Perro();
-       
+       animalPerro.hacerSonido();
 
     }
 }
