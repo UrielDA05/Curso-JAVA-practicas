@@ -31,6 +31,7 @@ class PruebaAnimal{
        var animalPerro = new Perro();
        animalPerro.hacerSonido();
        var animalGato = new Gato();
+       animalGato.hacerSonido();
 
     }
 }
