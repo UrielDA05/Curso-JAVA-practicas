@@ -1,7 +1,7 @@
 package persona;
 import javax.swing.JOptionPane;
 
-public class Persona {
+public class Persona extends Object {
     private String nombre;
     private String apellido;
 
