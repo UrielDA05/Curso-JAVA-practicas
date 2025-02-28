@@ -13,14 +13,6 @@ public class PruebaPersona {
         obj1.setApellido(a1);
         obj1.mostrar1();
 
-        // solicitud de datos persona 2
-        var n2 = JOptionPane.showInputDialog("Ingresa tu nombre");
-        var a2 = JOptionPane.showInputDialog("Ingresa tu apellido");
-        var obj2 = new Persona();
 
-        // Asignacion de valores
-        obj2.setNombre(n2);
-        obj2.setApellido(a2);
-        obj2.mostrar2();
     }
 }
