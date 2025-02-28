@@ -11,7 +11,7 @@ public class PruebaPersona {
         // Asignacion de valores
         obj1.setNombre(n1);
         obj1.setApellido(a1);
-        obj1.mostrar1();
+       
 
 
     }
