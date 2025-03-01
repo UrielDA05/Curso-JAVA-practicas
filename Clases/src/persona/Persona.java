@@ -5,6 +5,10 @@ public class Persona extends Object {
     private String nombre;
     private String apellido;
 
+    @Override
+    public String toString(){
+        return "Nombre: " + nombre + "Apellido: " + apellido;
+    }
     public void Persona(String nombre, String apellido){
         this.nombre = nombre;
         this.apellido = apellido;
