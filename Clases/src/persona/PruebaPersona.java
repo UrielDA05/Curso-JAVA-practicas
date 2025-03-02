@@ -11,6 +11,7 @@ public class PruebaPersona {
         // Asignacion de valores
         obj1.setNombre(n1);
         obj1.setApellido(a1);
+
         // En automatico con println llama al metodo .toString sin necesidad de lamarlo
         System.out.println(obj1.toString());
 
