@@ -4,17 +4,19 @@ public class Animal {
     public void hacerSonido(){
         System.out.println("El animal hace un sonido");
     }
-    public void dormir{
+    public void dormir(){
         System.out.println("Duerme mucho tiempo");
     }
 }
 
 // Clase 2
 class Perro extends Animal {
+    super.dormir();
     @Override
     public void hacerSonido() {
         System.out.println("EL PERRO HACE GUAF");
     }
+
 }
 // Clase 3
 class Gato extends Animal {
