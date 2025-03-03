@@ -11,12 +11,11 @@ public class Animal {
 
 // Clase 2
 class Perro extends Animal {
-    super.dormir();
     @Override
     public void hacerSonido() {
         System.out.println("EL PERRO HACE GUAF");
     }
-
+    public void dormir(){}
 }
 // Clase 3
 class Gato extends Animal {
