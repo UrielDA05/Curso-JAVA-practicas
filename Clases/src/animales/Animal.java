@@ -4,6 +4,9 @@ public class Animal {
     public void hacerSonido(){
         System.out.println("El animal hace un sonido");
     }
+    public void dormir{
+        System.out.println("Duerme mucho tiempo");
+    }
 }
 
 // Clase 2
