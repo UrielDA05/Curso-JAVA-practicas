@@ -7,7 +7,7 @@ public class Persona extends Object {
 
     @Override
     public String toString(){
-        return "Nombre: " + this.nombre + ", Apellido: " + this.apellido + ", Direccion: "+ super.toString();
+        return "Nombre: " + this.nombre + ", Apellido: " + this.apellido + ", Direccion en memoria: "+ super.toString();
     }
     public void Persona(String nombre, String apellido){
         this.nombre = nombre;
