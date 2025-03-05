@@ -15,7 +15,9 @@ class Perro extends Animal {
     public void hacerSonido() {
         System.out.println("EL PERRO HACE GUAF");
     }
-    public void dormir(){}
+    public void dormir(){
+        System.out.println("Duerme 9 horas");
+    }
 }
 // Clase 3
 class Gato extends Animal {
