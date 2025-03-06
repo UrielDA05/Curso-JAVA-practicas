@@ -43,6 +43,7 @@ class PruebaAnimal{
        animalPerro.hacerSonido();
        var animalGato = new Gato();
        var gato = new Animal();
+       gato.dormir();
 
 
     }
