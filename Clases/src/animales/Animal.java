@@ -27,6 +27,9 @@ class Gato extends Animal {
     public void hacerSonido() {
         System.out.println("EL GATO HACE MIAU");
     }
+    public void dormir(){
+        System.out.println("Duerme todo el dia");
+    }
 }
 
 
@@ -39,7 +42,7 @@ class PruebaAnimal{
        var animalPerro = new Perro();
        animalPerro.hacerSonido();
        var animalGato = new Gato();
-       super.hacerSonido();
+       
 
     }
 }
