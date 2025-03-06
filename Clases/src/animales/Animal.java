@@ -37,12 +37,12 @@ class PruebaAnimal{
     public static void main(String[] args) {
         System.out.println("*** Ejemplo de Polimorfismo ***");
         var animal = new Animal();
-       // var animal = new Perro();
+       //var animal = new Perro();
        animal.hacerSonido();
        var animalPerro = new Perro();
        animalPerro.hacerSonido();
        var animalGato = new Gato();
-       
+
 
     }
 }
