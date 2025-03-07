@@ -19,7 +19,7 @@ class Perro extends Animal {
     public void dormir(){
         System.out.println("Duerme 9 horas");
     }
-   
+
 }
 // Clase 3
 class Gato extends Animal {
@@ -38,7 +38,7 @@ class PruebaAnimal{
     public static void main(String[] args) {
         System.out.println("*** Ejemplo de Polimorfismo ***");
         var animal = new Animal();
-       //var animal = new Perro();
+
        animal.hacerSonido();
        var animalPerro = new Perro();
        animalPerro.hacerSonido();
