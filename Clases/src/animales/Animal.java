@@ -19,7 +19,9 @@ class Perro extends Animal {
     public void dormir(){
         System.out.println("Duerme 9 horas");
     }
-
+    public Perro(String dormir){
+        super(dormir);
+    }
 }
 // Clase 3
 class Gato extends Animal {
@@ -30,6 +32,7 @@ class Gato extends Animal {
     public void dormir(){
         System.out.println("Duerme todo el dia");
     }
+
 }
 
 
@@ -44,6 +47,7 @@ class PruebaAnimal{
        var animalGato = new Gato();
        var gato = new Animal();
        gato.dormir();
+
 
 
     }
