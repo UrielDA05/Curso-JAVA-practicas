@@ -1,7 +1,7 @@
 package persona;
 import javax.swing.JOptionPane;
 
-public class Persona extends Object {
+public class Persona{
     static int contadorPersonas = 0;
     private String nombre;
     private String apellido;
@@ -13,7 +13,7 @@ public class Persona extends Object {
     public Persona(String nombre, String apellido){
         this.nombre = nombre;
         this.apellido = apellido;
-        contadorPersonas ++;
+        Persona.contadorPersonas ++;
     }
 
     public String getNombre(){
