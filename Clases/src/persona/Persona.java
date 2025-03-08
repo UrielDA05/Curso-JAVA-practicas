@@ -2,6 +2,7 @@ package persona;
 import javax.swing.JOptionPane;
 
 public class Persona extends Object {
+    static int contadorPersonas = 0;
     private String nombre;
     private String apellido;
 
