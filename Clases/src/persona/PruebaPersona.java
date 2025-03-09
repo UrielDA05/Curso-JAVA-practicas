@@ -11,7 +11,7 @@ public class PruebaPersona {
         var obj1 = new Persona(n1,a1);
         obj1.setNombre(n1);
         obj1.setApellido(a1);
-        System.out.println("Variable estatica despues de la creacion del objeto " + Persona.contadorPersonas);
+        System.out.println("Variable estatica despues de la creacion del objeto: " + Persona.contadorPersonas);
 
 
 
