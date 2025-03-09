@@ -32,11 +32,11 @@ public class Persona{
     }
 
     public void mostrar1(){
-        JOptionPane.showMessageDialog(null, "Nombrec de la primer persona: " + this.nombre );
+        JOptionPane.showMessageDialog(null, "Nombre de la primer persona: " + this.nombre );
         JOptionPane.showMessageDialog(null, "Apellido de la primer persona: " + this.apellido);
     }
     public void mostrar2(){
-        JOptionPane.showMessageDialog(null, "Nombrec de la segunda persona: " + this.nombre );
+        JOptionPane.showMessageDialog(null, "Nombre de la segunda persona: " + this.nombre );
         JOptionPane.showMessageDialog(null, "Apellido de la segunda persona: " + this.apellido);
     }
 }
