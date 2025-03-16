@@ -1,8 +1,8 @@
 public class Funciones {
     // Definir la funcion sumar
     static int sumar(int a, int b){
-        int reultado = a + b;
-        return reultado;
+        int resultado = a + b;
+        return resultado;
     }
 
     public static void main(String[] args) {
