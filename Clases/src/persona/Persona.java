@@ -3,8 +3,8 @@ import javax.swing.JOptionPane;
 
 public class Persona{
     static int contadorPersonas = 0;
-    private String nombre[];
-    private String apellido[];
+    private String nombre;
+    private String apellido;
 
     @Override
     public String toString(){
