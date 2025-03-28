@@ -8,7 +8,7 @@ public class Persona{
 
     @Override
     public String toString(){
-        return "Nombre: " + this.nombre[n] + ", Apellido: " + this.apellido[n] + ", Direccion en memoria: "+ super.toString();
+        return "Nombre: " + this.nombre + ", Apellido: " + this.apellido + ", Direccion en memoria: "+ super.toString();
     }
     public Persona(String nombre, String apellido){
         this.nombre = nombre;
