@@ -13,6 +13,10 @@ public class PruebaPersona {
         obj1.setApellido(a1);
         System.out.println("Variable estatica despues de la creacion del objeto: " + Persona.contadorPersonas);
 
+        var n2 = JOptionPane.showInputDialog("Ingrese su nombre");
+        var a2 = JOptionPane.showInputDialog("Ingrese su apellido");
+        var obj2 = new Persona(n2,a2);
+        System.out.println("Variable estatica despues de la creacion del objeto: " + Persona.contadorPersonas);
 
 
         /*
