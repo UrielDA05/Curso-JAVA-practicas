@@ -3,17 +3,21 @@ import javax.swing.JOptionPane;
 
 public class Persona{
     static int contadorPersonas = 0;
+    private int idPersona;
     private String nombre;
     private String apellido;
 
     @Override
     public String toString(){
-        return "Nombre: " + this.nombre + ", Apellido: " + this.apellido + ", Direccion en memoria: "+ super.toString();
+        return "Id: " + this.idPersona +
+                ", Nombre: " + this.nombre +
+                ", Apellido: " + this.apellido;
     }
     public Persona(String nombre, String apellido){
         this.nombre = nombre;
         this.apellido = apellido;
         Persona.contadorPersonas ++;
+        this.idPersona = Persona.contadorPersonas;
     }
 
     public String getNombre(){
