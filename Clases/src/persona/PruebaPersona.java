@@ -25,7 +25,7 @@ public class PruebaPersona {
         Asignacion de valores
 
 
-         En automatico con println llama al metodo .toString sin necesidad de lamarlo
+         En automatico con println llama al metodo .toString sin necesidad de llamarlo
         System.out.println(obj1.toString()); */
 
 
